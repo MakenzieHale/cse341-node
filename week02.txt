@@ -1,0 +1,36 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku): 
+*Heroku returned application errror*
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+ https://github.com/MakenzieHale/cse341-node
+
+3. Briefly list and describe the elements of the application that are functioning. 
+All pages are rendered, user is able to submit book names
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+I tried to also have the user enter the price and the description but my code broke 
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+The coolest thing I learned with this assignment was pug and handlebars, I like ejs but 
+I really enjoyed learning pug and handlebars, I found them to be easier to grasp for me personally
+while completing the assignment, but doing it in ejs was doable!
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+I would give clearer instructions on how to get the heroku app to work. I got it installed and created, 
+but I recieved an application errror when heroku app was opened. Because of this I had to run my code through
+node app.js in prove 2.
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   [4] - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+My assignment meets the requirements that I followed along with the videos, unfortunately my code
+broke when I tried to push the price and description so I had to take that out in order for my code 
+to function correctly.
