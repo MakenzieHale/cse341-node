@@ -35,7 +35,6 @@ app.use((req,res,next)=>{
     
 });
 
-//hello
 
 
 app.listen(process.env.PORT || 5000);
