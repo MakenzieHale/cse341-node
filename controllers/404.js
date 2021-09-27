@@ -1,4 +1,4 @@
 exports.get404Page = (req,res,next)=>{
-    res.status(404).render('404.ejs',{pageTitle:'404 Error' });
+    res.status(404).render('404.ejs',{pageTitle:'404 Error', path:'/404' });
     
 };
