@@ -2,40 +2,29 @@ const path = require('path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
-// const expresshbs = require('express-handlebars');
 
 const errorController = require('./controllers/404');
 
 const app = express();
 
-//pug
-// app.set('view engine', 'pug');
-// app.set('views','views');
-
-// handlebars
-// app.engine('hbs',expresshbs({layoutsDir:'views/layouts/', defaultLayout:'main-layout', extname:'hbs'}));
-// app.set('view engine', 'hbs');
-// app.set('views','views');
-
-//ejs
 app.set('view engine', 'ejs');
-app.set('views','views');
-
-
+app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(path.join(__dirname,'public')));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/admin',adminRoutes);
-app.use(shopRoutes); 
+app.use('/admin', adminRoutes);
+app.use(shopRoutes);
 
-app.use(errorController.get404Page);
+app.use(errorController.get404);
+
+app.listen(3000);
 
 
 
-app.listen(process.env.PORT || 5000);
+// app.listen(process.env.PORT || 5000);
 
 
