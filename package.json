@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/MakenzieHale/cse341-node#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.9",
     "nodemon": "^2.0.12"
   },
   "devDependencies": {
