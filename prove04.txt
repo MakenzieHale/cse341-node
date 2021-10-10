@@ -1,0 +1,34 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+https://cseweek2prove.herokuapp.com/
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/MakenzieHale/cse341-node
+
+3. Briefly list and describe the elements of the application that are functioning. 
+Everything seems to be functioning correctly. User is able to select a product to see 
+it's details, add to cart, order now, and then orders are posted in the orders tab.
+Products are able to be added, deleted, and updated.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+Everything functioning correctly.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+I think the coolest thing this week was learning about nosql. I've really enjoyed 
+learning about that, I feel like the queries are simple to undrestand.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+I think I would give updated tips. For example in the videos, Max uses execpopulate, and that wasn't 
+needed in my code so it caused errors.
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   [4] - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+Everything is functioning the way that it should and application functions.
